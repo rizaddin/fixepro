@@ -2,7 +2,7 @@
 function ins_epro(){
 clear
 print_install "Menginstall ePro WebSocket Proxy"
-    wget -O /usr/bin/ws "${REPO}limit/ws" >/dev/null 2>&1
+    wget -O /usr/bin/ws "https://raw.githubusercontent.com/rizaddin/vip/main/limit/ws" >/dev/null 2>&1
     wget -O /usr/bin/tun.conf "${REPO}limit/tun.conf" >/dev/null 2>&1
     wget -O /etc/systemd/system/ws.service "${REPO}limit/ws.service" >/dev/null 2>&1
     chmod +x /etc/systemd/system/ws.service
