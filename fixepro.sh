@@ -1,3 +1,4 @@
+#!/bin/bash
 function ins_epro(){
 clear
 print_install "Menginstall ePro WebSocket Proxy"
